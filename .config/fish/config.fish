@@ -49,3 +49,4 @@ function fish_greeting
   fortune
 end
 
+source ~/.asdf/asdf.fish
