@@ -22,7 +22,13 @@ separator_block_width=10
 [bandwidth]
 interval=1
 
-[temperature]
+[temperature_cpu]
+command=$HOME/.config/i3blocks/temperature
+separator=false
+separator_block_width=10
+
+[temperature_cpu]
+command=$HOME/.config/i3blocks/temperature --chip coretemp-isa-0000
 separator=false
 separator_block_width=10
 

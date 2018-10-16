@@ -8,6 +8,7 @@ set -x PATH $HOME/.bin $PATH
 set -x PATH /usr/local/bin $PATH
 
 # Setup rbenv.
+set -x PATH $HOME/.gem/ruby/2.5.0/bin $PATH
 set -x PATH $HOME/.rbenv/bin $PATH
 if type -q rbenv
     source (rbenv init -|psub)
